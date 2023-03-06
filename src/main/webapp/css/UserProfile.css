@@ -1,0 +1,51 @@
+#layoutSidenav_content #UserText{
+    width: 500px;
+}
+#layoutSidenav_content .ProFileBtn #PreFileBtn{
+    margin-left: 10px;margin-bottom: 10px ;
+    font-size : 15px;
+  
+  text-decoration : none;
+  cursor: pointer;
+  border : 1px solid #333;
+  padding : 5px;
+  background : #e2e2e2;
+  border-radius : 5px;
+}
+#layoutSidenav_content .ProFileBtn {
+    display: flex;
+    justify-content: center;
+}
+#layoutSidenav_content #HomeBtn{
+    text-decoration : none;
+    cursor: pointer;
+    border : 1px solid #333;
+    padding : 5px;
+    background : #e2e2e2;
+    border-radius : 5px;
+}
+#layoutSidenav_content #Profile{
+    display: flex;
+    justify-content: space-evenly;
+    
+
+}
+#layoutSidenav_content #Profile h3{
+    margin-top: 25px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+@media (min-width: 1224px) {
+    #layoutSidenav_content #Profile{
+          width:500px;
+          
+    }
+  
+  }
+@media (max-width: 500px) {
+    #layoutSidenav_content #Profile{
+          width:400px;
+          
+    }
+  
+  }

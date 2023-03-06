@@ -1,0 +1,27 @@
+.form-example{
+  display: grid;
+  place-content: center;
+}
+div.image-container{
+    display: grid;
+  place-content: center;
+  justify-content: center;
+  align-items: center;
+    
+}
+form.EmailForm {
+    display: table;
+}
+
+div.EmailForm {
+    display: table-row;
+}
+
+label, input {
+    display: table-cell;
+    margin-bottom: 10px;
+}
+
+label {
+    padding-right: 10px;
+}
